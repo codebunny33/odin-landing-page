@@ -154,3 +154,51 @@ h3 {
   justify-content: flex-end;
   margin-left: 1000px;
 }
+
+.last-div {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.blue-container {
+  background-color: #3882f6;
+  height: 40%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 80%;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h4 {
+  font-size: 24px;
+  color: white;
+}
+
+.last-p {
+  color: white;
+  font-size: 18px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn-last-div {
+  background-color: #3882f6;
+  color: white;
+  width: 100px;
+  height: 45px;
+  border: 3px solid #fff;
+  border-radius: 10px solid white;
+  margin-top: 50px;
+  margin-right: 50px;
+}
